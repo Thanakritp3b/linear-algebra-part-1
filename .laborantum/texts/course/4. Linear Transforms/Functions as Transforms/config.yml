@@ -1,0 +1,35 @@
+type: choose_any
+visible: false
+text: "Select invertible functions"
+header: "Functions as Transforms"
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: |
+      $$x^2, x \in \mathbb R$$
+    is_correct: false
+  - text: |
+      $$x^2, x \in \mathbb R^{+}$$
+    is_correct: true
+  - text: |
+      $$\sin x, x \in \mathbb R$$
+    is_correct: false
+  - text: |
+      $$\cos x, x \in \mathbb R^{+}$$
+    is_correct: false
+  - text: |
+      $$\cos x, x \in \left[-\pi, \pi \right]$$
+    is_correct: false
+  - text: |
+      $$\cos x, x \in \left[0, \pi\right]$$
+    is_correct: true
+  - text: |
+      $$\exp x, x \in \left[-1; 1\right]$$
+    is_correct: true
+  - text: |
+      $$\tg x, x \in \left[-2\pi, 2\pi\right]$$
+    is_correct: false
+  - text: |
+      $$\ctg x, x \in \left(0, \frac{\pi}{2}\right]$$
+    is_correct: true

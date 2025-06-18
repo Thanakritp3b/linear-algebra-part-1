@@ -1,0 +1,76 @@
+type: order_cards
+visible: false
+header: Linear Dependency and Orthonormalization
+text: |
+  Reconstruct the proof of the fact that the system of vectors is linearly
+  independent if and only if it can be orthonormalized
+shuffle: true
+score: 1
+quiz:
+  variants:
+    - text: |
+        Take a set of vectors
+
+        $\mathbf x_1, \mathbf x_2, \mathbf x_3, \dots, \mathbf x_N$
+    - text: >
+        Firstly, consider the definition of linearly dependent set of vectors 
+
+        (for example, when the last one is dependent on the previous ones):
+
+
+        $\exists \mathbf a \neq \mathbf 0: \mathbf x_N = \sum_{n = 1}^{N - 1}
+        a_n \mathbf x_n$
+    - text: >
+        Secondly, consider the orthonormalization procedure:
+
+
+        $\mathbf x_k^* = \mathbf x_k - \sum_{l=1}^k \left<\mathbf x_k, \mathbf
+        e_l\right> \mathbf e_l$
+
+
+        $\mathbf e_k = \frac{\mathbf x^*_k}{|\mathbf x^*_k|}$
+    - text: |
+        The expression above immediately means that $\mathbf x_k$ can be
+        reconstructed in the form of linear combination of the first $k$
+        orthonormal vectors:
+
+        $\mathbf x_k = \sum_{l=1}^k b_l \mathbf e_l$
+    - text: >
+        Suppose that orthonormalization process reached $\mathbf x_N$
+
+        that is linearly dependent on the previous ones. Then for this element,
+
+        we will get:
+
+
+        $\mathbf x_N^* = \mathbf x_N - \sum_{l=1}^k \left<\mathbf x_N, \mathbf
+        e_l\right> \mathbf e_l$
+
+
+        And now here we can replace:
+
+
+        $\mathbf x_N = \sum_{n = 1}^{N - 1} b_n \mathbf e_n$
+
+
+        Because the previous vectors are merely linear combinations of
+        previously
+
+        orthonormalized and the current one.
+    - text: >
+        After substitution and opening the brackets, one gets:
+
+
+        $\mathbf x_N^* = \sum_{n = 1}^{N - 1} a_n \mathbf e_n - \sum_{l=1}^{N-1}
+        \left<\sum_{n = 1}^{N - 1} a_n \mathbf e_n, \mathbf e_l\right> \mathbf
+        e_l = \sum_{n = 1}^{N - 1} a_n \mathbf e_n - \sum_{l=1}^{N-1} \sum_{n =
+        1}^{N - 1} a_n \left< \mathbf e_n, \mathbf e_l\right> \mathbf e_l$
+    - text: >
+        Continuing with the expression above and using the Kronecker symbol:
+
+
+        $= \sum_{n = 1}^{N - 1} a_n \mathbf e_n - \sum_{l=1}^{N-1} \sum_{n =
+        1}^{N - 1} a_n \delta_{nl} \mathbf e_l = \sum_{n = 1}^{N - 1} a_n
+        \mathbf e_n - \sum_{l=1}^{N-1} a_l \mathbf e_l = \mathbf 0$
+    - text: |
+        This fact immediately means that the stage with division is impossible.

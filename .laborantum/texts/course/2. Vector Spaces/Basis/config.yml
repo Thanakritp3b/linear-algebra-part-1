@@ -1,0 +1,31 @@
+type: choose_any
+visible: false
+text: Select all the variants that are correct
+header: Basis Quiz
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: The basis in some linear space is the maximal possible linearly independent
+      system of vectors
+    is_correct: true
+  - text: If we build a span on some system of vectors, then in this span the original
+      system of vectors is the basis
+    is_correct: false
+  - text: In case the system of vectors is the basis in some space, not a single vector
+      from that space can be added to this system of vectors without breaking its
+      linear independency
+    is_correct: true
+  - text: If some system of vectors $\mathbf e_1, \dots, \mathbf e_N$ is the basis
+      in some linear space, then every vector from that space can be represented in
+      the form $\mathbf x = \sum_{k=1}^N \left<\mathbf x, \mathbf e_k\right> \mathbf
+      e_k$
+    is_correct: false
+  - text: If we select vectors from N-dimensional vector space and build a span on
+      them, then within this span there are at most $N$ basis vectors.
+    is_correct: true
+  - text: If we select vectors from N-dimensional vector space and build a span on
+      them, then within this span there are exactly $N$ basis vectors.
+    is_correct: false
+  - text: In $N$-dimensional vector space there are always exactly $N$ basis vectors
+    is_correct: true

@@ -1,0 +1,34 @@
+type: choose_any
+visible: false
+text: Select all the variants that are correct
+header: Coordinates Quiz
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: Covariant and contravariant coordinates always coinside
+    is_correct: false
+  - text: Covariant coordinates of a vector are coefficients in basis decomposition
+      of that vector
+    is_correct: false
+  - text: Contravariant coordinates of a vector are coefficients in basis decomposition
+      of that vector
+    is_correct: true
+  - text: Covariant coordinate of a vector is the results of scalar products of that
+      vector with the corresponding basis vector
+    is_correct: true
+  - text: Contravariant coordinate of a vector is the results of scalar products of
+      that vector with the corresponding basis vector
+    is_correct: true
+  - text: If a basis vector is scaled with positive value that is greater than zero,
+      the covariant coordinate is also scaled by the same value
+    is_correct: true
+  - text: If a basis vector is scaled with positive value that is greater than zero,
+      the contravariant coordinate is also scaled by the same value
+    is_correct: false
+  - text: The contravariant and covariant coordinates coinside if and only if the
+      basis is orthonormal
+    is_correct: true
+  - text: If the basis is orthogonal, covariant coordinates can be calculated as contravariant
+      coordinates multiplied with some values $x^*_k = \alpha_k x_k$
+    is_correct: true

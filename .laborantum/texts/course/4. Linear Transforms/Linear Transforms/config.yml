@@ -1,0 +1,44 @@
+type: choose_any
+visible: false
+text: "Select the correct statements"
+header: "Linear Transforms"
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: |
+      $\forall A \in \mathbb R^{N \times M}, M \neq N \Rightarrow \exist A^{-1}$
+    is_correct: false
+  - text:
+      $\exists A \in \mathbb R^{N \times M}, M \neq N \Rightarrow \exist A^{-1}$
+    is_correct: false
+  - text:
+      $\exists! A \in \mathbb R^{N \times M}, M \neq N \Rightarrow \exist A^{-1}$
+    is_correct: false    
+  - text: |
+      $\forall A \in \mathbb R^{N \times N} \Rightarrow \exist A^{-1}$
+    is_correct: false
+  - text: |
+      $\exist A \in \mathbb R^{N \times N} \Rightarrow \exist A^{-1}$
+    is_correct: true
+  - text: |
+      $\exist! A \in \mathbb R^{N \times N} \Rightarrow \exist A^{-1}$
+    is_correct: false
+  - text: |
+      $B: \forall \mathbf x \in \mathbb R^N, B A \mathbf x = \mathbf x \Rightarrow B = A^{-1}$
+    is_correct: true
+  - text: |
+      $B: \exists \mathbf x \in \mathbb R^N, B A \mathbf x = \mathbf x \Rightarrow B = A^{-1}$
+    is_correct: false
+  - text: |
+      $B: \forall \mathbf x \in \mathbb R^N, A B \mathbf x = \mathbf x \Rightarrow B = A^{-1}$
+    is_correct: true
+  - text: |
+      $B: \exists \mathbf x \in \mathbb R^N, A B \mathbf x = \mathbf x \Rightarrow B = A^{-1}$
+    is_correct: false
+  - text: |
+      $A: \left\{\forall \mathbf x, \mathbf y \in \mathbb R^N, \mathbf x \neq \mathbf y \Rightarrow A \mathbf x \neq A \mathbf y \right\} \Rightarrow \exist A^{-1}$
+    is_correct: true
+  - text: |
+      $A: \left\{\forall \mathbf x, \mathbf y \in \mathbb R^N, \mathbf x \neq \mathbf y \Rightarrow A \mathbf x \neq A \mathbf y \right\} \Rightarrow \exist! A^{-1}$
+    is_correct: true

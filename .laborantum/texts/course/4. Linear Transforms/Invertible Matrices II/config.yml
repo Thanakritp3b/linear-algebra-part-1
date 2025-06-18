@@ -1,0 +1,59 @@
+type: choose_any
+visible: false
+text: "Select correct statements"
+header: "Invertible Matrices"
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: |
+      If one of the rows of the matrix is equal to $\mathbf 0$,
+      then such matrix is non-invertible
+    is_correct: true
+  - text: |
+      Any matrix with linearly independent rows
+      is invertible
+    is_correct: false
+  - text: |
+      Any square matrix is invertible
+    is_correct: false
+  - text: |
+      There exist non-square matrices that are invertible
+    is_correct: false
+  - text: |
+      All square diagonal matrices with non-zero diagonal
+      elements are invertible
+    is_correct: true
+  - text: |
+      All upper-triangular matrices are invertible
+    is_correct: false
+  - text: |
+      All lower-triangular matrices with non-zero elements
+      in the lower triangle are invertible
+    is_correct: true
+  - text: |
+      All matrices with all zero diagonal elements are
+      non-invertible
+    is_correct: false
+  - text: |
+      The matrix is non-invertible if two rows are linearly
+      dependent
+    is_correct: true
+  - text: |
+      Square matrices with linearly independent rows
+      are invertible
+    is_correct: true
+  - text: |
+      Matrix zero-space is always non-empty
+    is_correct: true
+  - text: |
+      Matrix is invertible if its zero-space is empty
+    is_correct: false
+  - text: |
+      Matrix is invertible if and only if its zero-space
+      contains only one element
+    is_correct: true
+  - text: |
+      $\mathbf 0$ is always an element of a zero-space of
+      any matrix
+    is_correct: true

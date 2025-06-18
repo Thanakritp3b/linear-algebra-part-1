@@ -1,0 +1,26 @@
+type: choose_any
+visible: false
+text: Select all the variants that are correct
+header: Orthonormal Coordinates Quiz
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: If the basis $\mathbf e_1, \dots, \mathbf e_N$ in some space is orthonormal,
+      then any vector from that space can be represented as $\mathbf x = \sum_{k=1}^N
+      \left<\mathbf x, \mathbf e_k\right> \mathbf e_k$
+    is_correct: true
+  - text: If the basis is orthonormal, then the covariant and contravariant coordinates
+      coincide.
+    is_correct: true
+  - text: If the basis is orthonormal, then scalar product of two vectors represented
+      as coefficients $a_k$ and $b_k$ in this basis is equal to the sum of the products
+      of the corresponding coefficients, $\sum_{k=1}^N a_k b_k$
+    is_correct: true
+  - text: One can make out of any set of vectors an orthonormal basis using orthonormalisation
+      procedure
+    is_correct: false
+  - text: To create a an orthonormal basis in some space using orthonormalisation
+      procedure, one should take a maximal possible linear independent system of vectors
+      and perform orthonormalisation
+    is_correct: true

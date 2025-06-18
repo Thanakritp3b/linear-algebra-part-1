@@ -1,0 +1,20 @@
+type: choose_any
+visible: false
+text: Select all the variants that are correct
+header: Linear Independency Quiz 2
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: $$ \begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \end{bmatrix} $$
+    is_correct: false
+  - text: $$ \begin{bmatrix} 1 & 2 \\ 2 & 3 \\ 100 & 100 \end{bmatrix} $$
+    is_correct: false
+  - text: $$ \begin{bmatrix} 1 & 0 & 1 & 0 \\ 1 & 1 & 1 & 1 \end{bmatrix} $$
+    is_correct: true
+  - text: $$ \begin{bmatrix} 1 & 2 \\ 3 & 6 \end{bmatrix} $$
+    is_correct: false
+  - text: $$ \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix} $$
+    is_correct: true
+  - text: $$ \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix} $$
+    is_correct: false

@@ -1,0 +1,48 @@
+type: choose_any
+visible: false
+text: Select all the variants that are correct
+header: Linear Dependency Quiz
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: |
+      If a system of vectors $\mathbf x_1, \dots, \mathbf x_N$ is linearly 
+      dependent, then every of these vectors
+      can be represented as a linear combination of the other vectors from this 
+      set, $\mathbf x_l = \sum_{k=1 \\ k \neq l}^N a_k \mathbf x_k$
+    is_correct: true
+  - text: |
+      If a system of vectors $\mathbf x_1, \dots, \mathbf x_N$ 
+      from some vector space $\mathbb R^M$ is linearly dependent, that means that
+      in this space there does not exist any other vector that is linearly 
+      independent from this set of vectors: 
+      $$\forall \mathbf y \in \mathbb R^M, \exists \mathbf a \in \mathbb R^N: \mathbf y = \sum_{k=1}^N a_k \mathbf x_k$$
+    is_correct: false
+  - text: |
+      If a system of vectors $\mathbf x_1, \dots \mathbf x_N$ is linearly 
+      dependent, any vector from their span
+      has only one set of coefficients for these vectors.
+    is_correct: false
+  - text: |
+      If a system of vectors $\mathbf x_1, \dots \mathbf x_N$ from some space 
+      $\mathbb R^M$ is 
+      linearly dependent $\exists \mathbf a \in \mathbb R^N$, then their
+      span covers all the space:
+      $$\forall \mathbf y \in \mathbb R^M \Rightarrow \mathbf y \in Span(\mathbf x_1, \dots, \mathbf x_N)$$
+    is_correct: false
+  - text: |
+      If a system of vectors $\mathbf x_1, \dots \mathbf x_N$ from some space 
+      $\mathbb R^M$ is linearly dependent, then the span of these vectors
+      covers only some part of the space (not all the space)
+      $$\forall \mathbf y \in \mathbb R^M \Rightarrow \mathbf y \notin Span(\mathbf x_1, \dots, \mathbf x_N)$$
+    is_correct: false
+  - text: |
+      The system of vectors $\mathbf x_1, \dots, \mathbf x_N$ is called linearly
+      dependent if $\exists \mathbf a \in \mathbb R^N \quad \sum_{k=1}^N a_k \mathbf
+      x_k = \mathbf 0$
+    is_correct: false
+  - text: The system of vectors $\mathbf x_1, \dots, \mathbf x_N$ is called linearly
+      dependent if $\exists \mathbf a \in \mathbb R^N, \mathbf a \neq \mathbf 0 \quad
+      \sum_{k=1}^N a_k \mathbf x_k = \mathbf 0$
+    is_correct: true

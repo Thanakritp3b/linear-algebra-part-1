@@ -1,0 +1,41 @@
+type: choose_any
+visible: true
+text: "Select correct expressions"
+header: "Hyperplanes"
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: One can define a line using a direction vector $\mathbf a$ and a point 
+      $\mathbf x_0$
+    is_correct: true
+  - text: One can define a line using two different points, $\mathbf x_0$ and 
+      $\mathbf x_1$
+    is_correct: true
+  - text: One can define a 2D plane in 3D space using a normal vector 
+      $\mathbf n$ and a point $\mathbf x_0$
+    is_correct: true
+  - text: One can define a 2D plane in 10D space using a normal vector 
+      $\mathbf n$ and a point $\mathbf x_0$
+    is_correct: false
+  - text: It is possible to define 2D plane in 10D space using three different 
+      points, $\mathbf x_1, \mathbf x_2, \mathbf x_3$
+    is_correct: true
+  - text: Suppose that we have a $N$-dimensional hyperplane that is defined by a point
+      $\mathbf x_0$ and a set of direction vectors, $\mathbf a_1, \dots, \mathbf a_N$.
+      If one adds any vector $\mathbf a_{N+1}$ to the set of direction vectors, the
+      hyperplane will become $N+1$-dimensional
+    is_correct: false
+  - text: Suppose that we have a $N$-dimensional hyperplane that is defined by a point
+      $\mathbf x_0$ and a set of direction vectors, $\mathbf a_1, \dots, \mathbf a_N$,
+      $N > 0$. If one removes any vector $\mathbf a_{k}$ from the set of direction
+      vectors, the hyperplane will become $N-1$-dimensional
+    is_correct: true
+  - text: If one defines only the direction of a line $\mathbf a$, this defines not
+      a single line, but a set (family) of parallel lines
+    is_correct: true
+  - text: If one defines two 2D planes in 4D space with two sets of direction vectors
+      $\mathbf a_1, \mathbf a_2$ and $\mathbf b_1, \mathbf b_2$ and a common point
+      $\mathbf x_0$, if $\forall k, l \ \  \mathbf a_k \perp \mathbf b_l $, then these
+      two planes have only one common point.
+    is_correct: true

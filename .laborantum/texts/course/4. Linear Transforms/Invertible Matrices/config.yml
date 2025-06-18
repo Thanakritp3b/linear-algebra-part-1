@@ -1,0 +1,43 @@
+type: choose_any
+visible: false
+text: "Select the correct statements"
+header: "Invertible Matrices"
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: |
+      If $\forall \mathbf x, \mathbf y, \ \mathbf x \neq \mathbf y, \ A \mathbf x \neq A \mathbf y \Rightarrow \exist A^{-1}$
+    is_correct: true
+  - text: |
+      If $B A = I$ and $C A = I \Rightarrow B = C = A^{-1}$
+    is_correct: true
+  - text: |
+      If $\exist \mathbf x, \mathbf y, \ \mathbf x \neq \mathbf y: 
+      A \mathbf x = A \mathbf y,$ then 
+      $\forall \mathbf z: 
+      \mathbf z = \alpha \mathbf x + \beta \mathbf y \Rightarrow
+      A \mathbf z = A \mathbf x = A \mathbf y$
+    is_correct: false
+  - text: |
+      If $\exist \mathbf x, \mathbf y, \ \mathbf x \neq \mathbf y: 
+      A \mathbf x = A \mathbf y,$ then 
+      $\forall \mathbf z: 
+      \mathbf z = \alpha \mathbf x + (1 - \alpha) \mathbf y \Rightarrow
+      A \mathbf z = A \mathbf x = A \mathbf y$
+    is_correct: true
+  - text: |
+      If $\exist \mathbf x_0 \neq \mathbf 0: 
+      A \mathbf x_0 = \mathbf 0$ then 
+      $\forall \mathbf b \ \exist ! \mathbf x: A \mathbf x = \mathbf b$
+    is_correct: false
+  - text: |
+      If $\exist \mathbf x_0 \neq \mathbf 0: 
+      A \mathbf x_0 = \mathbf 0$ then 
+      $\forall \mathbf b \ \exist \mathbf x: A \mathbf x = \mathbf b$
+    is_correct: false
+  - text: |
+      If $\forall \mathbf x \neq \mathbf 0: 
+      A \mathbf x \neq \mathbf 0$ then 
+      $\exist A^{-1}$
+    is_correct: true

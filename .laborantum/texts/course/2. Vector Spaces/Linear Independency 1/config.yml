@@ -1,0 +1,52 @@
+type: choose_any
+visible: false
+text: Select all the variants that are correct
+header: Linear Independency Quiz 1
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: |
+      In case a system of vectors $\mathbf x_1, \dots, \mathbf x_N$ is 
+      linearly independent, any vector $\mathbf y$ from its
+      span has the only representation in the form of linear combination of the original
+      vectors
+      $$\exists ! \mathbf a \in \mathbb R^N: \mathbf y = \sum_{k=1}^N a_k \mathbf x_k $$
+    is_correct: true
+  - text: |
+      In case a system of vectors $\mathbf x_1, \dots, \mathbf x_N$ is linearly 
+      independent, any linear combination
+      of these vectors will not yield zero vector:
+      $$\forall \mathbf a \in \mathbb R^N \Rightarrow \sum_{k=1}^N a_k \mathbf x_k \neq \mathbf 0$$
+    is_correct: false
+  - text: |
+      In case a system of vectors 
+      $\mathbf x_1, \dots, \mathbf x_N \in \mathbb R^M$ is linearly independent, 
+      then every vector $\forall \mathbf y \in \mathbb R^M$
+      is representable in a form of linear combination of all the other vectors 
+      from this system:
+      $$\exists \mathbf a \in \mathbb R^N: \mathbf y = \sum_{k=1}^N a_k \mathbf x_k$$
+    is_correct: false
+  - text: |
+      For any system of vectors $\mathbf x_1, \dots, \mathbf x_N \in \mathbb R^M$
+      (both linearly dependent and linearly independent),
+      the trivial linear combination 
+      (all coefficients are zero, $\mathbf a = \mathbf 0$) 
+      always yields zero $\mathbf 0$ vector:
+      $$\sum_{k=1}^N a_k \mathbf x_k = \mathbf 0$$
+    is_correct: true
+  - text: |
+      If we add to a system of linearly independent vectors
+      $\mathbf x_1, \dots, \mathbf x_N$ a zero vector $\mathbf 0$, the
+      system will become a linearly dependent system of vectors
+    is_correct: true
+  - text: In case a system of vectors  $\mathbf x_1, \dots, \mathbf x_N$ is 
+      linearly independent, adding any vector
+      from its span to it will make the system linearly dependent
+    is_correct: true
+  - text: |
+      A system of vectors is called linearly independent if $\forall \mathbf a
+      \in \mathbb R^N , \mathbf a \neq 0 \quad \sum_{k=1}^N a_k \mathbf x_k \neq \mathbf
+      0$
+    is_correct: true
+    

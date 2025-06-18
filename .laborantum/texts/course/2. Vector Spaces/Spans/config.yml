@@ -1,0 +1,49 @@
+type: choose_any
+visible: false
+text: Select all the variants that are correct
+header: Span Quiz
+shuffle: true
+score: 1
+quiz:
+  variants:
+  - text: |
+      Span of a system of vectors is the set of vectors that can be expressed
+      as linear combinations of the vectors from this system:
+      $$Span(\mathbf x_1, \dots, \mathbf x_N) = \left\{\forall \mathbf y: \exist \mathbf a \in \mathbb R^N: \mathbf y = \sum_{k=1}^N a_k \mathbf x_k\right\}$$
+    is_correct: true
+  - text: |
+      Each vector $\mathbf y$ from a span of system of vectors 
+      $\left\{x_k \right\}_{k=1}^N$ 
+      has a unique representation
+      as linear combination of that system of vectors: 
+      $\exists! \left\{a_k\right\}: \mathbf y = \sum_{k=1}^N a_k \mathbf x_k$
+    is_correct: false
+  - text: |
+      In case a vector $\mathbf y$ belongs to the span of vectors $\mathbf x_1,
+      \dots, \mathbf x_N$, then it has non-zero orthogonal componenet to all of the
+      vectors $\mathbf x_1, \dots, \mathbf x_N$
+    is_correct: false
+  - text: |
+      If two vectors, $\mathbf a$ and $\mathbf b$, belong to a span of some 
+      vectors,
+      then any their linear combination belongs to the same span.
+    is_correct: true
+  - text: If a vector $\mathbf y$ has a representation 
+      $\mathbf y = \sum_{k=1}^N a_k \mathbf x_k,$ 
+      then after scaling of this vector with coefficient $\alpha$ 
+      ($\alpha \mathbf y$), the coefficients
+      $a_k$ increase $\alpha$ times
+    is_correct: true
+  - text: |
+      If two vectors $\mathbf u$ and $\mathbf v$ have representation 
+      $\mathbf u = \sum_{k=1}^N a_k \mathbf x_k$ and 
+      $\mathbf v = \sum_{k=1}^N b_k \mathbf x_k$, 
+      then the sum of these vectors can be represented as linear combination
+      of $\mathbf x_1, \dots, \mathbf x_N$ with the sum of the coefficients $a_k$
+      and $b_k$.
+    is_correct: true
+  - text: If two vectors $\mathbf u$ and $\mathbf v$ have representation $\mathbf
+      u = \sum_{k=1}^N a_k \mathbf x_k$ and $\mathbf v = \sum_{k=1}^N b_k \mathbf
+      x_k$, then the scalar product is equal to $\left<\mathbf u, \mathbf v\right>
+      = \sum_{k=1}^N a_k b_k$.
+    is_correct: false
