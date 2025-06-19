@@ -3,8 +3,8 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 34,
-                "correct": 24
+                "total": 111,
+                "correct": 26
             }
         },
         {
@@ -12,6 +12,27 @@
             "status": {
                 "total": 34,
                 "correct": 24
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/config.yml",
+            "status": {
+                "total": 39,
+                "correct": 2
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/config.yml",
+            "status": {
+                "total": 23,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/config.yml",
+            "status": {
+                "total": 15,
+                "correct": 0
             }
         }
     ],
@@ -313,6 +334,198 @@
         },
         {
             "path": "/texts/course/1. Vectors/Vectors Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Spans/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    5,
+                    3,
+                    4
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Linear Dependency/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    6,
+                    0
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Linear Independency 1/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Linear Independency 2/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Linear Dependensy and Orthonormalization/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Orthonormalization Algorithm/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Basis/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Coordinates/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Orthonormal Coordinates/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Coordinates and Basis Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Hyperplanes/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Hyperplanes and Subspaces/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrix/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrices Manual Exercise/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrix Product Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrix Product Optimal Order/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrix Product/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Functions as Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Linear Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Invertible Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Invertible Matrices II/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Invertible Matrices III/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Some Interesting Linear Transforms/config.yml",
             "status": {
                 "total": 1,
                 "correct": 0,
