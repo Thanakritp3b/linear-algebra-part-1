@@ -4,14 +4,14 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 111,
-                "correct": 67.02475247524752
+                "correct": 94.5
             }
         },
         {
             "path": "/texts/course/1. Vectors/config.yml",
             "status": {
                 "total": 34,
-                "correct": 31.524752475247524
+                "correct": 34
             }
         },
         {
@@ -25,14 +25,14 @@
             "path": "/texts/course/3. Matrices/config.yml",
             "status": {
                 "total": 23,
-                "correct": 0
+                "correct": 13
             }
         },
         {
             "path": "/texts/course/4. Linear Transforms/config.yml",
             "status": {
                 "total": 15,
-                "correct": 3
+                "correct": 15
             }
         }
     ],
@@ -335,7 +335,7 @@
         {
             "path": "/texts/course/1. Vectors/Vectors Practice/config.yml",
             "status": {
-                "correct": 7.524752475247524,
+                "correct": 10,
                 "total": 10,
                 "testStatus": [
                     {
@@ -1350,248 +1350,248 @@
                     },
                     {
                         "name": "root -> cosine -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.006079583741258943,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 1",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.8442232277098909,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 2",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.2834080974014127,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 3",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.9285343826621095,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 4",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.18983789285180153,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 5",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.08572848271070144,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 6",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.8533581891802435,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 7",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.29209652403634545,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 8",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.6605250325413026,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 9",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.5633962623986001,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 10",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.5206345882461594,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 11",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.010347651454972,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 12",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.4912940879248202,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 13",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.40854005126778065,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 14",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.7531752897569761,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 15",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.2104672656357146,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 16",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.0125021911362888,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 17",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.03551148337710873,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 18",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.9414187344418745,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 19",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.03206956077347778,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 20",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.2700112821323577,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 21",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.3301929272334461,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 22",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.4594660827928977,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 23",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.800169021698719,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 24",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.44097295782648405,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 25",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.35208130890077,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 26",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.1871612976310284,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 27",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.3817111416569333,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 28",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.3640466934968107,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 29",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.8220136666662405,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 30",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.8145150099554785,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 31",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.41216786981074094,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 32",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.1233658840122271,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 33",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.9850255153173434,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 34",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.6579191162517993,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 35",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.7532213194028461,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 36",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.2035101665534898,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 37",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.9884475348119379,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 38",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.3980358454763816,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 39",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.5815431208210328,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 40",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.8429102733881808,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 41",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.18448123061698923,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 42",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.0358983494922918,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 43",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.4953812125103407,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 44",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.2627287870657882,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 45",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.5764527512987541,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 46",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.6135358758869418,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 47",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.9875152203685689,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 48",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.4018094239826255,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 49",
@@ -1600,258 +1600,258 @@
                     },
                     {
                         "name": "root -> cosine -> 50",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.661376790519056,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 51",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.826601854087055,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 52",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.7805943774719195,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 53",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.32658689776158717,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 54",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.3670280156625427,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 55",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.3911117459799805,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 56",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.4132770339582828,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 57",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.0352863363628132,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 58",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.45820813406427363,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 59",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.5962726690044869,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 60",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.6752275381175451,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 61",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.014096796556854918,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 62",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.9425414783467893,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 63",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.328558175052358,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 64",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.9893492798091258,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 65",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.2187966824551782,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 66",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.6528702730586398,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 67",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.25134482856879636,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 68",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.5167539909208977,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 69",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.40824270699911336,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 70",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.221895694937226,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 71",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.9649466494629062,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 72",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.3533355881272753,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 73",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.4598881120648083,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 74",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.5656763361810139,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 75",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.3920790466011683,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 76",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.5119008441525773,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 77",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.1792145410150034,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 78",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.0687779220585076,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 79",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.46229238253453575,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 80",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.04868093892617231,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 81",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.35548119861192884,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 82",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.9213474962077558,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 83",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.6584594606806939,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 84",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.502919491390142,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 85",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.21833929186376821,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 86",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.22881351768977898,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 87",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.917659130249568,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 88",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.1722562659296798,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 89",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.00011652720400745498,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 90",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.8644637255486756,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 91",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.6458586213164942,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 92",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.7237521017619963,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 93",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.5253609519565785,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 94",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.27856213682039044,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 95",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.7429903329213507,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 96",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.19899235234793705,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 97",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.35963059947147935,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 98",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.005083315920736409,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 99",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.5151806873576033,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> cosine -> 100",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.4643014628317461,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> orthonormal -> 0",
@@ -6055,40 +6055,162 @@
             "path": "/texts/course/3. Matrices/Matrix/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    3,
+                    5,
+                    1,
+                    7,
+                    8
+                ]
             }
         },
         {
             "path": "/texts/course/3. Matrices/Matrices Manual Exercise/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 10,
+                "total": 10,
+                "testStatus": [
+                    {
+                        "name": "root -> task1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task5 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task5 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task5 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    }
+                ]
             }
         },
         {
             "path": "/texts/course/3. Matrices/Matrix Product Quiz/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    6,
+                    11,
+                    5,
+                    10,
+                    4,
+                    2,
+                    7,
+                    1
+                ]
             }
         },
         {
             "path": "/texts/course/3. Matrices/Matrix Product Optimal Order/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
             }
         },
         {
             "path": "/texts/course/3. Matrices/Matrix Product/config.yml",
             "status": {
-                "total": 1,
+                "total": 10,
                 "correct": 0,
-                "selectedVariantIds": []
+                "testStatus": [],
+                "error": [
+                    "[NbClientApp] Executing .laborantum/texts/course/3. Matrices/Matrix Product/task.ipynb",
+                    "[NbClientApp] Executing notebook with kernel: python3",
+                    "Traceback (most recent call last):",
+                    "  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 154, in wrapped",
+                    "    asyncio.get_running_loop()",
+                    "RuntimeError: no running event loop",
+                    "",
+                    "During handling of the above exception, another exception occurred:",
+                    "",
+                    "Traceback (most recent call last):",
+                    "  File \"/usr/local/bin/jupyter-execute\", line 8, in <module>",
+                    "    sys.exit(main())",
+                    "             ^^^^^^",
+                    "  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/application.py\", line 284, in launch_instance",
+                    "    super().launch_instance(argv=argv, **kwargs)",
+                    "  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 1074, in launch_instance",
+                    "    app.initialize(argv)",
+                    "  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 118, in inner",
+                    "    return method(app, *args, **kwargs)",
+                    "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 161, in initialize",
+                    "    self.run_notebook(path)",
+                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 215, in run_notebook",
+                    "    client.execute()",
+                    "  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 158, in wrapped",
+                    "    return loop.run_until_complete(inner)",
+                    "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+                    "  File \"/usr/local/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete",
+                    "    return future.result()",
+                    "           ^^^^^^^^^^^^^^^",
+                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 709, in async_execute",
+                    "    await self.async_execute_cell(",
+                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 1062, in async_execute_cell",
+                    "    await self._check_raise_for_error(cell, cell_index, exec_reply)",
+                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 918, in _check_raise_for_error",
+                    "    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)",
+                    "nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:",
+                    "------------------",
+                    "answer['task2'] = []",
+                    "for one_input in inputs['task2']:",
+                    "    answer['task2'].append(numpy_expression(**one_input))",
+                    "------------------",
+                    "",
+                    "",
+                    "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
+                    "\u001b[31mNameError\u001b[39m                                 Traceback (most recent call last)",
+                    "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[4]\u001b[39m\u001b[32m, line 2\u001b[39m",
+                    "\u001b[32m      1\u001b[39m answer[\u001b[33m'\u001b[39m\u001b[33mtask2\u001b[39m\u001b[33m'\u001b[39m] = []",
+                    "\u001b[32m----> \u001b[39m\u001b[32m2\u001b[39m \u001b[38;5;28;01mfor\u001b[39;00m one_input \u001b[38;5;129;01min\u001b[39;00m \u001b[43minputs\u001b[49m[\u001b[33m'\u001b[39m\u001b[33mtask2\u001b[39m\u001b[33m'\u001b[39m]:",
+                    "\u001b[32m      3\u001b[39m     answer[\u001b[33m'\u001b[39m\u001b[33mtask2\u001b[39m\u001b[33m'\u001b[39m].append(numpy_expression(**one_input))",
+                    "",
+                    "\u001b[31mNameError\u001b[39m: name 'inputs' is not defined",
+                    "",
+                    ""
+                ]
             }
         },
         {
@@ -6135,24 +6257,263 @@
             "path": "/texts/course/4. Linear Transforms/Invertible Matrices II/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    10,
+                    6,
+                    9,
+                    8,
+                    13,
+                    4,
+                    12,
+                    0
+                ]
             }
         },
         {
             "path": "/texts/course/4. Linear Transforms/Invertible Matrices III/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    6
+                ]
             }
         },
         {
             "path": "/texts/course/4. Linear Transforms/Some Interesting Linear Transforms/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 10,
+                "total": 10,
+                "testStatus": [
+                    {
+                        "name": "root -> task1 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task5 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    }
+                ]
             }
         }
     ]
