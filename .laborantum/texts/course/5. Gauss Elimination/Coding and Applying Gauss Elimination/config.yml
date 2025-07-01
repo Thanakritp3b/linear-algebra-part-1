@@ -1,0 +1,8 @@
+type: code
+score: 30
+code: []
+run:
+  - jupyter-execute "${relativeTaskPath}/task.ipynb"
+  - python .laborantum/utils/checker.py -t "${relativeTaskPath}"
+report: ""
+visible: false
