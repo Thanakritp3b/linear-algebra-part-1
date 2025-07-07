@@ -3,8 +3,8 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 111,
-                "correct": 104.5
+                "total": 161,
+                "correct": 101.32539682539682
             }
         },
         {
@@ -25,7 +25,7 @@
             "path": "/texts/course/3. Matrices/config.yml",
             "status": {
                 "total": 23,
-                "correct": 23
+                "correct": 19.825396825396826
             }
         },
         {
@@ -33,6 +33,13 @@
             "status": {
                 "total": 15,
                 "correct": 15
+            }
+        },
+        {
+            "path": "/texts/course/5. Gauss Elimination/config.yml",
+            "status": {
+                "total": 50,
+                "correct": 0
             }
         }
     ],
@@ -290,6 +297,26 @@
                         "status": "OK"
                     },
                     {
+                        "name": "root -> bool -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
                         "name": "root -> lovely -> 0",
                         "ok": true,
                         "status": "OK"
@@ -310,22 +337,42 @@
                         "status": "OK"
                     },
                     {
-                        "name": "root -> expression -> 0",
+                        "name": "root -> expression1 -> 0",
                         "ok": true,
                         "status": "OK"
                     },
                     {
-                        "name": "root -> expression -> 1",
+                        "name": "root -> expression1 -> 1",
                         "ok": true,
                         "status": "OK"
                     },
                     {
-                        "name": "root -> expression -> 2",
+                        "name": "root -> expression1 -> 2",
                         "ok": true,
                         "status": "OK"
                     },
                     {
-                        "name": "root -> expression -> 3",
+                        "name": "root -> expression1 -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression2 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression2 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression2 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression2 -> 3",
                         "ok": true,
                         "status": "OK"
                     }
@@ -6152,7 +6199,7 @@
         {
             "path": "/texts/course/3. Matrices/Matrix Product/config.yml",
             "status": {
-                "correct": 10,
+                "correct": 6.825396825396826,
                 "total": 10,
                 "testStatus": [
                     {
@@ -6372,103 +6419,103 @@
                     },
                     {
                         "name": "root -> task5 -> 0 -> 0",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "FAILED: data types do not match:\nExpected type: float64\nRecieved type: int64"
                     },
                     {
                         "name": "root -> task5 -> 0 -> 1",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.5,'\n                    that is larger than eps (0.0001)"
                     },
                     {
                         "name": "root -> task5 -> 1 -> 0",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "FAILED: data types do not match:\nExpected type: float64\nRecieved type: int64"
                     },
                     {
                         "name": "root -> task5 -> 1 -> 1",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.2916666666666667,'\n                    that is larger than eps (0.0001)"
                     },
                     {
                         "name": "root -> task5 -> 2 -> 0",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "FAILED: data types do not match:\nExpected type: float64\nRecieved type: int64"
                     },
                     {
                         "name": "root -> task5 -> 2 -> 1",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.0625,'\n                    that is larger than eps (0.0001)"
                     },
                     {
                         "name": "root -> task5 -> 3 -> 0",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "FAILED: data types do not match:\nExpected type: float64\nRecieved type: int64"
                     },
                     {
                         "name": "root -> task5 -> 3 -> 1",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.4,'\n                    that is larger than eps (0.0001)"
                     },
                     {
                         "name": "root -> task5 -> 4 -> 0",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "FAILED: data types do not match:\nExpected type: float64\nRecieved type: int64"
                     },
                     {
                         "name": "root -> task5 -> 4 -> 1",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.484375,'\n                    that is larger than eps (0.0001)"
                     },
                     {
                         "name": "root -> task5 -> 5 -> 0",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "FAILED: data types do not match:\nExpected type: float64\nRecieved type: int64"
                     },
                     {
                         "name": "root -> task5 -> 5 -> 1",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.4642857142857143,'\n                    that is larger than eps (0.0001)"
                     },
                     {
                         "name": "root -> task5 -> 6 -> 0",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "FAILED: data types do not match:\nExpected type: float64\nRecieved type: int64"
                     },
                     {
                         "name": "root -> task5 -> 6 -> 1",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.5208333333333334,'\n                    that is larger than eps (0.0001)"
                     },
                     {
                         "name": "root -> task5 -> 7 -> 0",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "FAILED: data types do not match:\nExpected type: float64\nRecieved type: int64"
                     },
                     {
                         "name": "root -> task5 -> 7 -> 1",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.6,'\n                    that is larger than eps (0.0001)"
                     },
                     {
                         "name": "root -> task5 -> 8 -> 0",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "FAILED: data types do not match:\nExpected type: float64\nRecieved type: int64"
                     },
                     {
                         "name": "root -> task5 -> 8 -> 1",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.47619047619047616,'\n                    that is larger than eps (0.0001)"
                     },
                     {
                         "name": "root -> task5 -> 9 -> 0",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "FAILED: data types do not match:\nExpected type: float64\nRecieved type: int64"
                     },
                     {
                         "name": "root -> task5 -> 9 -> 1",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "\n                    FAILED: Incorrect answer. Misfit is 0.4166666666666667,'\n                    that is larger than eps (0.0001)"
                     }
                 ]
             }
@@ -6774,6 +6821,30 @@
                         "status": "OK"
                     }
                 ]
+            }
+        },
+        {
+            "path": "/texts/course/5. Gauss Elimination/Manual Exercises Square Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/5. Gauss Elimination/Manual Exercises Nonsquare Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/5. Gauss Elimination/Coding and Applying Gauss Elimination/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
             }
         }
     ]
