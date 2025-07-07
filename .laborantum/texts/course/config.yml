@@ -4,3 +4,5 @@ order:
   - 3. Matrices
   - 4. Linear Transforms
   - 5. Gauss Elimination
+  - 6. Determinants
+  - 7. Eigen Values and Eigen Vectors
