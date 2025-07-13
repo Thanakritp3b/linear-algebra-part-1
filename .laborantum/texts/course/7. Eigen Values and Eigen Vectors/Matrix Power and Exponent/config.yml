@@ -1,0 +1,37 @@
+type: order_cards
+score: 5
+header: Matrix Power and Exponent
+text: |
+  Order the cards to get the Matrix Power and Exponent Derivation
+shuffle: true
+quiz:
+  variants:
+    - text: |
+        Consider a matrix that has Diagonalized Form: 
+    - text: |
+        $A = S \Lambda S^{-1}$
+    - text: >
+        If we take this matrix and multiply it with itself several times, we get:
+    - text: >
+        $A^k = (S \Lambda S^{-1})^k = S \Lambda^k S^{-1}$
+    - text: |
+        where the matrix $\Lambda^k = \mathrm{diag}(\lambda_1^k, \dots, \lambda_N^k)$
+    - text: >
+        Thus, it is easy to find any power of any diagonalizable matrix
+    - text: |
+        Now consider matrix exponent:
+    - text: |
+        $\exp(A) = \sum_{k=0}^{\infty} \frac{A^k}{k!}$
+    - text: |
+        Recalling that the matrix $A$ is diagonalizable, this expression can be rewritten:
+    - text: |
+        $\exp(A) = S \left(\sum_{k=0}^{\infty} \frac{\Lambda^k}{k!}\right) S^{-1}$
+    - text: |
+        Introducing a simple exponent of a diagonal matrix:
+        
+        $\exp(\Lambda) = \mathrm{diag}(\exp(\lambda_1), \dots, \exp(\lambda_N))$
+    - text: |
+        One finally gets diagonalized form of matrix exponent:
+
+        $\exp(A) = S \exp(\Lambda) S^{-1}$
+visible: false

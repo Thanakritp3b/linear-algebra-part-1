@@ -1,36 +1,36 @@
 type: choose_any
-visible: true
-header: "Matrices"
-text: "Select what can be treated as a matrix"
+visible: false
+header: Matrices
+text: Select what can be treated as a matrix
 shuffle: true
 score: 1
 quiz:
   variants:
-  - text: $\begin{bmatrix} 1 & 2 & 0\\ 3 &   & 4 \end{bmatrix}$
-    is_correct: false
-  - text: $\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}$
-    is_correct: true
-  - text: $\begin{bmatrix} 0 & & \\ & 1 & \\ & & 2 \end{bmatrix}$
-    is_correct: false
-  - text: $\begin{bmatrix} - & \mathbf a_1 & - \\ - & \mathbf a_2 & - \\ \end{bmatrix}$
-      $\mathbf a_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$, $\mathbf a_2 = \begin{bmatrix}
-      3 \\ 4 \end{bmatrix} $
-    is_correct: true
-  - text: $\begin{bmatrix} - & \mathbf a_1 & - \\ - & \mathbf a_2 & - \\ \end{bmatrix}$
-      $\mathbf a_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$, $\mathbf a_2 = \begin{bmatrix}
-      3 \\ 4 \\ 5 \end{bmatrix}$
-    is_correct: false
-  - text: $\begin{bmatrix} | & | \\ \mathbf a_1 & \mathbf a_2 \\ | & | \end{bmatrix}$
-      $\mathbf a_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$, $\mathbf a_2 = \begin{bmatrix}
-      3 \\ 4 \end{bmatrix} $
-    is_correct: true
-  - text: $\begin{bmatrix} | & | \\ \mathbf a_1 & \mathbf a_2 \\ | & | \end{bmatrix}$
-      $\mathbf a_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$, $\mathbf a_2 = \begin{bmatrix}
-      3 \\ 4 \\ 5 \end{bmatrix} $
-    is_correct: false
-  - text: $\begin{bmatrix} | \\ \mathbf a_1\\ | \end{bmatrix}$ $\mathbf a_1 = \begin{bmatrix}
-      1 \\ 2 \end{bmatrix}$
-    is_correct: true
-  - text: $\begin{bmatrix} - & \mathbf a_1 & - \end{bmatrix}$ $\mathbf a_1 = \begin{bmatrix}
-      1 \\ 2 \end{bmatrix}$
-    is_correct: true
+    - text: $\begin{bmatrix} 1 & 2 & 0\\ 3 &   & 4 \end{bmatrix}$
+      is_correct: false
+    - text: $\begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}$
+      is_correct: true
+    - text: $\begin{bmatrix} 0 & & \\ & 1 & \\ & & 2 \end{bmatrix}$
+      is_correct: false
+    - text: $\begin{bmatrix} - & \mathbf a_1 & - \\ - & \mathbf a_2 & - \\
+        \end{bmatrix}$ $\mathbf a_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$,
+        $\mathbf a_2 = \begin{bmatrix} 3 \\ 4 \end{bmatrix} $
+      is_correct: true
+    - text: $\begin{bmatrix} - & \mathbf a_1 & - \\ - & \mathbf a_2 & - \\
+        \end{bmatrix}$ $\mathbf a_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$,
+        $\mathbf a_2 = \begin{bmatrix} 3 \\ 4 \\ 5 \end{bmatrix}$
+      is_correct: false
+    - text: $\begin{bmatrix} | & | \\ \mathbf a_1 & \mathbf a_2 \\ | & |
+        \end{bmatrix}$ $\mathbf a_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$,
+        $\mathbf a_2 = \begin{bmatrix} 3 \\ 4 \end{bmatrix} $
+      is_correct: true
+    - text: $\begin{bmatrix} | & | \\ \mathbf a_1 & \mathbf a_2 \\ | & |
+        \end{bmatrix}$ $\mathbf a_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$,
+        $\mathbf a_2 = \begin{bmatrix} 3 \\ 4 \\ 5 \end{bmatrix} $
+      is_correct: false
+    - text: $\begin{bmatrix} | \\ \mathbf a_1\\ | \end{bmatrix}$ $\mathbf a_1 =
+        \begin{bmatrix} 1 \\ 2 \end{bmatrix}$
+      is_correct: true
+    - text: $\begin{bmatrix} - & \mathbf a_1 & - \end{bmatrix}$ $\mathbf a_1 =
+        \begin{bmatrix} 1 \\ 2 \end{bmatrix}$
+      is_correct: true
