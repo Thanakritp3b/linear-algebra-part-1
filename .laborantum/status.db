@@ -3,8 +3,8 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 229,
-                "correct": 226.69310344827588
+                "total": 258,
+                "correct": 258
             }
         },
         {
@@ -39,21 +39,21 @@
             "path": "/texts/course/5. Gauss Elimination/config.yml",
             "status": {
                 "total": 50,
-                "correct": 49.79310344827586
+                "correct": 50
             }
         },
         {
             "path": "/texts/course/6. Determinants/config.yml",
             "status": {
                 "total": 68,
-                "correct": 65.9
+                "correct": 68
             }
         },
         {
             "path": "/texts/course/7. Eigen Values and Eigen Vectors/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0
+                "total": 29,
+                "correct": 29
             }
         }
     ],
@@ -7068,7 +7068,7 @@
         {
             "path": "/texts/course/5. Gauss Elimination/Coding and Applying Gauss Elimination/config.yml",
             "status": {
-                "correct": 29.79310344827586,
+                "correct": 30,
                 "total": 30,
                 "testStatus": [
                     {
@@ -8048,8 +8048,8 @@
                     },
                     {
                         "name": "root -> gauss_elimination_nullspace_cases -> 5 -> 0",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.04938271604938271"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> gauss_elimination_nullspace_cases -> 5 -> 1",
@@ -8153,8 +8153,8 @@
                     },
                     {
                         "name": "root -> gauss_elimination_nullspace_cases -> 12 -> 0",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.1111111111111111"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> gauss_elimination_nullspace_cases -> 12 -> 1",
@@ -9998,13 +9998,13 @@
                     },
                     {
                         "name": "root -> nullspace_PLU -> 5 -> 0",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.04938271604938271"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> nullspace_PLU -> 5 -> 1",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.3838828893081751"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> nullspace_PLU -> 5 -> 2",
@@ -10103,13 +10103,13 @@
                     },
                     {
                         "name": "root -> nullspace_PLU -> 12 -> 0",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.1111111111111111"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> nullspace_PLU -> 12 -> 1",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.4956018518518519"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> nullspace_PLU -> 12 -> 2",
@@ -25139,7 +25139,7 @@
         {
             "path": "/texts/course/6. Determinants/Determinant Computation Algorithm/config.yml",
             "status": {
-                "correct": 7.9,
+                "correct": 10,
                 "total": 10,
                 "testStatus": [
                     {
@@ -25154,8 +25154,8 @@
                     },
                     {
                         "name": "root -> results -> 1 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 4.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 1 -> 1",
@@ -25164,8 +25164,8 @@
                     },
                     {
                         "name": "root -> results -> 2 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 746.0000000000006,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 2 -> 1",
@@ -25184,8 +25184,8 @@
                     },
                     {
                         "name": "root -> results -> 4 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 190.00000000000003,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 4 -> 1",
@@ -25214,8 +25214,8 @@
                     },
                     {
                         "name": "root -> results -> 7 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 450.0000000000003,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 7 -> 1",
@@ -25224,8 +25224,8 @@
                     },
                     {
                         "name": "root -> results -> 8 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 12.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 8 -> 1",
@@ -25234,8 +25234,8 @@
                     },
                     {
                         "name": "root -> results -> 9 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1512.0000000000005,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 9 -> 1",
@@ -25254,8 +25254,8 @@
                     },
                     {
                         "name": "root -> results -> 11 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 12.000000000000002,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 11 -> 1",
@@ -25264,8 +25264,8 @@
                     },
                     {
                         "name": "root -> results -> 12 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 10.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 12 -> 1",
@@ -25274,8 +25274,8 @@
                     },
                     {
                         "name": "root -> results -> 13 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 50.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 13 -> 1",
@@ -25294,8 +25294,8 @@
                     },
                     {
                         "name": "root -> results -> 15 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 36.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 15 -> 1",
@@ -25314,8 +25314,8 @@
                     },
                     {
                         "name": "root -> results -> 17 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 16.00000000000002,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 17 -> 1",
@@ -25334,8 +25334,8 @@
                     },
                     {
                         "name": "root -> results -> 19 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 296.0000000000002,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 19 -> 1",
@@ -25344,8 +25344,8 @@
                     },
                     {
                         "name": "root -> results -> 20 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 2.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 20 -> 1",
@@ -25354,8 +25354,8 @@
                     },
                     {
                         "name": "root -> results -> 21 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 145.99999999999991,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 21 -> 1",
@@ -25384,8 +25384,8 @@
                     },
                     {
                         "name": "root -> results -> 24 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1.9999999999999991,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 24 -> 1",
@@ -25404,8 +25404,8 @@
                     },
                     {
                         "name": "root -> results -> 26 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 297.9999999999999,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 26 -> 1",
@@ -25414,8 +25414,8 @@
                     },
                     {
                         "name": "root -> results -> 27 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 2.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 27 -> 1",
@@ -25444,8 +25444,8 @@
                     },
                     {
                         "name": "root -> results -> 30 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 4.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 30 -> 1",
@@ -25464,8 +25464,8 @@
                     },
                     {
                         "name": "root -> results -> 32 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 5.999999999999996,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 32 -> 1",
@@ -25474,8 +25474,8 @@
                     },
                     {
                         "name": "root -> results -> 33 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 4.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 33 -> 1",
@@ -25524,8 +25524,8 @@
                     },
                     {
                         "name": "root -> results -> 38 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 4.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 38 -> 1",
@@ -25554,8 +25554,8 @@
                     },
                     {
                         "name": "root -> results -> 41 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 26.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 41 -> 1",
@@ -25564,8 +25564,8 @@
                     },
                     {
                         "name": "root -> results -> 42 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 15587.999999999998,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 42 -> 1",
@@ -25604,8 +25604,8 @@
                     },
                     {
                         "name": "root -> results -> 46 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 39.999999999999986,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 46 -> 1",
@@ -25634,8 +25634,8 @@
                     },
                     {
                         "name": "root -> results -> 49 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 2.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 49 -> 1",
@@ -25714,8 +25714,8 @@
                     },
                     {
                         "name": "root -> results -> 57 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 34.00000000000001,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 57 -> 1",
@@ -25744,8 +25744,8 @@
                     },
                     {
                         "name": "root -> results -> 60 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 53.99999999999998,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 60 -> 1",
@@ -25774,8 +25774,8 @@
                     },
                     {
                         "name": "root -> results -> 63 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 192.0000000000001,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 63 -> 1",
@@ -25784,8 +25784,8 @@
                     },
                     {
                         "name": "root -> results -> 64 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 216.00000000000026,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 64 -> 1",
@@ -25814,8 +25814,8 @@
                     },
                     {
                         "name": "root -> results -> 67 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 159.9999999999998,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 67 -> 1",
@@ -25824,8 +25824,8 @@
                     },
                     {
                         "name": "root -> results -> 68 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 18.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 68 -> 1",
@@ -25834,8 +25834,8 @@
                     },
                     {
                         "name": "root -> results -> 69 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 1777.9999999999966,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 69 -> 1",
@@ -25884,8 +25884,8 @@
                     },
                     {
                         "name": "root -> results -> 74 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 74.00000000000004,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 74 -> 1",
@@ -25894,8 +25894,8 @@
                     },
                     {
                         "name": "root -> results -> 75 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 96.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 75 -> 1",
@@ -25904,8 +25904,8 @@
                     },
                     {
                         "name": "root -> results -> 76 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 13.999999999999998,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 76 -> 1",
@@ -25934,8 +25934,8 @@
                     },
                     {
                         "name": "root -> results -> 79 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 5.999999999999999,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 79 -> 1",
@@ -25944,8 +25944,8 @@
                     },
                     {
                         "name": "root -> results -> 80 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 2.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 80 -> 1",
@@ -25954,8 +25954,8 @@
                     },
                     {
                         "name": "root -> results -> 81 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 2399.9999999999986,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 81 -> 1",
@@ -26034,8 +26034,8 @@
                     },
                     {
                         "name": "root -> results -> 89 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 5.999999999999995,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 89 -> 1",
@@ -26044,8 +26044,8 @@
                     },
                     {
                         "name": "root -> results -> 90 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 124.00000000000009,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 90 -> 1",
@@ -26054,8 +26054,8 @@
                     },
                     {
                         "name": "root -> results -> 91 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 2.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 91 -> 1",
@@ -26104,8 +26104,8 @@
                     },
                     {
                         "name": "root -> results -> 96 -> 0",
-                        "ok": false,
-                        "status": "\n                    FAILED: Incorrect answer. Misfit is 8.0,'\n                    that is larger than eps (0.0001)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 96 -> 1",
@@ -28162,6 +28162,133 @@
                 "selectedVariantIds": [
                     2,
                     3
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Definition/config.yml",
+            "status": {
+                "total": 3,
+                "correct": 3,
+                "selectedVariantIds": [
+                    1,
+                    0,
+                    2,
+                    3,
+                    5
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Properties/config.yml",
+            "status": {
+                "total": 3,
+                "correct": 3,
+                "selectedVariantIds": [
+                    1,
+                    8,
+                    7,
+                    5,
+                    0
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Diagonalized Form of Matrix/config.yml",
+            "status": {
+                "total": 5,
+                "correct": 5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Matrix Power and Exponent/config.yml",
+            "status": {
+                "total": 5,
+                "correct": 5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Differential Equations Evolutionary Matrix/config.yml",
+            "status": {
+                "total": 5,
+                "correct": 5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Differential Equations General Solution/config.yml",
+            "status": {
+                "total": 5,
+                "correct": 5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Jordan Chain/config.yml",
+            "status": {
+                "total": 3,
+                "correct": 3,
+                "selectedVariantIds": [
+                    6,
+                    10,
+                    3,
+                    4,
+                    7,
+                    8,
+                    0,
+                    2
                 ]
             }
         }
